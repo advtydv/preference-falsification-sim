@@ -2,29 +2,6 @@
 
 A multi-agent simulation where LLM agents balance public reputation with private family needs, creating natural preference falsification dynamics.
 
-## ⚠️ Important: API Key Setup
-
-Before running this simulation, you need to set up your API keys. The code supports multiple LLM providers:
-
-### Setting up API Keys
-
-1. **Environment Variables (Recommended)**:
-   ```bash
-   export OPENAI_API_KEY="your-openai-api-key"
-   export AZURE_API_KEY="your-azure-api-key"
-   export OPENROUTER_API_KEY="your-openrouter-api-key"
-   export KLUSTER_API_KEY="your-kluster-api-key"
-   ```
-
-2. **Or create a `.env` file** in the project root:
-   ```
-   OPENAI_API_KEY=your-openai-api-key
-   AZURE_API_KEY=your-azure-api-key
-   OPENROUTER_API_KEY=your-openrouter-api-key
-   KLUSTER_API_KEY=your-kluster-api-key
-   ```
-
-**Never commit API keys to the repository!**
 
 ## Quick Start
 
@@ -62,7 +39,7 @@ The tension between these goals creates preference falsification - agents may pu
 
 ### Communication
 - **Public Statements**: Agents can make statements each round
-- **Group Chat**: Community discussions at rounds 5, 10, 14, 18
+- **Group Chat**: Community discussions
 - All communication is public (family status remains private)
 
 ## Installation & Usage
